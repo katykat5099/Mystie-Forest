@@ -1,9 +1,9 @@
 FirstEvoStages::
 	; lists the lowest stage for each Pokémon
 	table_width 2, FirstEvoStages
-	dw BULBASAUR
-	dw BULBASAUR
-	dw BULBASAUR
+	dw BUCKLEO
+	dw WOFF
+	dw VANTARO
 	dw CHARMANDER
 	dw CHARMANDER
 	dw CHARMANDER

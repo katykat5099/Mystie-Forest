@@ -6,9 +6,9 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
-	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
+	mon_cry CRY_BULBASAUR,   128,  129 ; BUCKLEO
+	mon_cry CRY_BULBASAUR,    32,  256 ; WOFF
+	mon_cry CRY_BULBASAUR,     0,  320 ; VANTARO
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
 	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD

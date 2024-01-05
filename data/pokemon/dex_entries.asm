@@ -1,8 +1,6 @@
 SECTION "Pokedex Entries 001-064", ROMX
 
-BulbasaurPokedexEntry::  INCLUDE "data/pokemon/dex_entries/bulbasaur.asm"
-IvysaurPokedexEntry::    INCLUDE "data/pokemon/dex_entries/ivysaur.asm"
-VenusaurPokedexEntry::   INCLUDE "data/pokemon/dex_entries/venusaur.asm"
+NoPokedexEntry::         INCLUDE "data/pokemon/dex_entries/noentry.asm"
 CharmanderPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmander.asm"
 CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"

@@ -1,9 +1,9 @@
 SECTION "Evolutions and Attacks 1", ROMX
 
 EvosAttacksPointers1::
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
+	dw BuckleoEvosAttacks
+	dw WoffEvosAttacks
+	dw VantaroEvosAttacks
 	dw CharmanderEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
@@ -154,56 +154,20 @@ EvosAttacksPointers1::
 	dw MewEvosAttacks
 .IndirectEnd::
 
-BulbasaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, IVYSAUR
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 4, GROWL
-	dbw 7, LEECH_SEED
-	dbw 10, VINE_WHIP
-	dbw 15, POISONPOWDER
-	dbw 15, SLEEP_POWDER
-	dbw 20, RAZOR_LEAF
-	dbw 25, SWEET_SCENT
-	dbw 32, GROWTH
-	dbw 39, SYNTHESIS
-	dbw 46, SOLARBEAM
+BuckleoEvosAttacks:
+	db 0 ; does not evolve
+	dbw 1, TOXIC
+	dbw 1, LEECH_SEED
 	db 0 ; no more level-up moves
 
-IvysaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 32, VENUSAUR
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, GROWL
-	dbw 1, LEECH_SEED
-	dbw 4, GROWL
-	dbw 7, LEECH_SEED
-	dbw 10, VINE_WHIP
-	dbw 15, POISONPOWDER
-	dbw 15, SLEEP_POWDER
-	dbw 22, RAZOR_LEAF
-	dbw 29, SWEET_SCENT
-	dbw 38, GROWTH
-	dbw 47, SYNTHESIS
-	dbw 56, SOLARBEAM
+WoffEvosAttacks:
+	db 0 ; does not evolve
+	dbw 1, TACKLE ; Astonish
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, GROWL
-	dbw 1, LEECH_SEED
-	dbw 1, VINE_WHIP
-	dbw 4, GROWL
-	dbw 7, LEECH_SEED
-	dbw 10, VINE_WHIP
-	dbw 15, POISONPOWDER
-	dbw 15, SLEEP_POWDER
-	dbw 22, RAZOR_LEAF
-	dbw 29, SWEET_SCENT
-	dbw 41, GROWTH
-	dbw 53, SYNTHESIS
-	dbw 65, SOLARBEAM
+VantaroEvosAttacks:
+	db 0 ; does not evolve
+	dbw 1, GUST
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:

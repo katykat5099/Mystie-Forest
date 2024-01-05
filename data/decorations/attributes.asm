@@ -64,7 +64,7 @@ DecorationAttributes:
 	assert_table_length NUM_DECOS + NUM_DECO_CATEGORIES + 1
 
 DecorationAttributePokemonNames:
-	dw BULBASAUR  ;  0
+	dw BUCKLEO    ;  0
 	dw CHARMANDER ;  1
 	dw SQUIRTLE   ;  2
 	dw WEEDLE     ;  3

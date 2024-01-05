@@ -1,7 +1,7 @@
 SECTION "Egg Moves 1", ROMX
 
 EggMovePointers1:
-	dw BulbasaurEggMoves
+	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw CharmanderEggMoves
@@ -153,14 +153,6 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw NoEggMoves1
 .IndirectEnd::
-
-BulbasaurEggMoves:
-	dw LIGHT_SCREEN
-	dw SKULL_BASH
-	dw SAFEGUARD
-	dw RAZOR_WIND
-	dw PETAL_DANCE
-	dw -1 ; end
 
 CharmanderEggMoves:
 	dw BELLY_DRUM

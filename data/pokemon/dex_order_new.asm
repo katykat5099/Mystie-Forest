@@ -227,9 +227,6 @@ NewPokedexOrder:
 	dw KABUTOPS
 	dw AERODACTYL
 	dw SNORLAX
-	dw BULBASAUR
-	dw IVYSAUR
-	dw VENUSAUR
 	dw CHARMANDER
 	dw CHARMELEON
 	dw CHARIZARD
@@ -253,4 +250,7 @@ NewPokedexOrder:
 	dw MEWTWO
 	dw MEW
 	dw CELEBI
+	dw BUCKLEO
+	dw WOFF
+	dw VANTARO
 	assert_table_length NUM_POKEMON

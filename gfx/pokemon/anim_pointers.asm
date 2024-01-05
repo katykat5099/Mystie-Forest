@@ -1,8 +1,8 @@
 AnimationPointers:
 	table_width 2, AnimationPointers
-	dw BulbasaurAnimation
-	dw IvysaurAnimation
-	dw VenusaurAnimation
+	dw BuckleoAnimation
+	dw WoffAnimation
+	dw VantaroAnimation
 	dw CharmanderAnimation
 	dw CharmeleonAnimation
 	dw CharizardAnimation
