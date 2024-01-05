@@ -155,6 +155,7 @@
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
+	charmap "<DOT>",     $e8 ; decimal point; same as "."
 	charmap "&",         $e9
 
 	charmap "é",         $ea
