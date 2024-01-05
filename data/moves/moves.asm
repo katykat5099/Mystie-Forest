@@ -269,4 +269,5 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,          70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          100, 10,   0      ;BEAT_UP
+	move EFFECT_NORMAL_HIT,         40, DRAGON,        100, 35,   0      ;DRAGON_SCORE
 .IndirectEnd::
